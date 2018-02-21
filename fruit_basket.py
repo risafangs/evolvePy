@@ -12,12 +12,9 @@ def main():
         if guess:
             print("Good job!")
             return
-        elif not guess:
+        else:
             print("I don't have that fruit.")
             guess_count += 1
-        else:
-            print("You're out of guesses.")
-            return
 
 # create a function called guess_fruit()
 
