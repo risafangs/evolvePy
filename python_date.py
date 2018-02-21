@@ -2,7 +2,7 @@ import datetime, os
 
 
 now = datetime.datetime.now()
-current_age = input('How old are you, stranger? ') # must be integer
+current_age = int(input('How old are you, stranger? ')) # must be integer
 
 if now.year <= 2035: # if it's not 2035 yet, just subtract
 	years_to_go = 2035 - now.year
