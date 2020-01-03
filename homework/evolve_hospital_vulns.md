@@ -4,7 +4,7 @@
 **Severity:** Critical  
 **Description:** Unauthorized users can reset passwords for valid accounts with only the account username and registered email address.  
 
-### Steps to Reproduce  
+**Steps to Reproduce**  
 1. Click on the `Forgot Password?` link on the main page login form
 2. On the **User Lookup** form, provide valid username and email address credentials, which can be gleaned from publicly-available information on the website (e.g. `drjratliff`, `djratliff@hack.evolvesecurity.io`)
 3. Select `Doctor` and click `Submit`
